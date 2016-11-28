@@ -6,13 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Gravity
-email: hemangsk@gmail.com
-description: The Liberal Jekyll Theme
+title: Louis Bianchini
+email: lbianch85@gmail.com
+email_display: lbianch85
+description: "Physicist : Programmer"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: hemang_kumar
-github_username:  hemangsk
+url: "https://lbianch.com"
+#twitter_username: lbianch85
+github_username:  lbianch
+linkedin_username: louisbianchini
 
 # Build settings
 markdown: kramdown
