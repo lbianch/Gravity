@@ -18,3 +18,6 @@ linkedin_username: louisbianchini
 # Build settings
 markdown: kramdown
 divider: "\u222B"
+gems: ["jekyll-paginate"]
+paginate: 4
+paginate_path: "/page:num/"
