@@ -9,12 +9,12 @@
 title: Louis Bianchini
 email: lbianch85@gmail.com
 email_display: lbianch85
-description: "Physicist : Programmer"
+description: "Physicist \u2236 Programmer \u2236 Data Scientist"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lbianch.com"
-#twitter_username: lbianch85
 github_username:  lbianch
 linkedin_username: louisbianchini
 
 # Build settings
 markdown: kramdown
+divider: "\u222B"

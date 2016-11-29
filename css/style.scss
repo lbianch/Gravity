@@ -14,12 +14,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #111111;
+$background-color: #fcfcfc;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: lighten($grey-color, 25%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
@@ -295,12 +295,15 @@ pre {
   font-weight: 300;
   padding-top: 0;
 }
+
 .home{
   padding-bottom: 5em;
 }
+
 .download {
   padding: 10px;
 }
+
 .authorKeyword {
   text-transform: uppercase;
   font-size: 16px;
@@ -308,40 +311,48 @@ pre {
   text-indent: 2px;
   padding-top:0.5em;
 }
+
 .writtenBy {
   letter-spacing: 0;
   text-indent: 0;
   text-transform: uppercase;
 }
+
 .archive-intro {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
 }
+
 .archiveIntro {
   text-align: center;
 }
+
 .hint {
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 2px;
   text-indent: 2px;
 }
+
 .example {
   font-family: 'Menlo';
   padding: 10px;
 }
+
 .manual {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
   text-indent: 2px;
 }
+
 .postContent {
   padding-top: 3.5em;
   text-align: center;
 }
+
 .postDate {
   float: left;
   text-transform: uppercase;
@@ -361,6 +372,7 @@ pre {
   letter-spacing: 3px;
   text-indent: 3px;
 }
+
 /**
  * Site header
  */
@@ -371,8 +383,9 @@ pre {
   // Positioning context for the mobile navigation icon
   position: relative;
 }
+
 .site-title {
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 100;
   font-family: 'PT Sans';
   text-transform: capitalize;
@@ -383,26 +396,30 @@ pre {
     color: $grey-color-dark;
   }
 }
+
 .site-description {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
   font-family: 'Josefin Sans';
 }
+
 .exclamationMark {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
+
 .site-navigation {
-  color: #aaa;
+  color: #aaaaaa;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  padding-top: 5em;
+  padding-top: 3em;
 }
+
 .page-title {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -410,6 +427,7 @@ pre {
   font-family: "PT Sans";
   font-size: 12px;
 }
+
 .page-tagline {
   font-size: 18px;
   font-family: "PT Sans";
@@ -417,9 +435,11 @@ pre {
   text-align: center;
   text-transform: lowercase;
 }
+
 .page-link {
   color: rgb(170, 170, 170);
 }
+
 .site-nav {
   .page-link {
     color: $text-color;
@@ -471,6 +491,7 @@ pre {
     }
   }
 }
+
 /**
  * Site footer
  */
@@ -478,46 +499,56 @@ pre {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
+
 .footer-heading {
   font-size: 18px;
   margin-bottom: $spacing-unit / 2;
 }
+
 .contact-list,
 .social-media-list {
   list-style: none;
   margin-left: 0;
 }
+
 .small-site-title {
   font-family: "PT Sans";
 }
+
 .footer-col-wrapper {
   font-size: 15px;
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
+
 .footer-content {
   font-family: "Josefin Sans";
   font-weight: 300;
   letter-spacing: 1px;
 }
+
 .footer-col {
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
 }
+
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
   width: calc(35% - (#{$spacing-unit} / 2));
 }
+
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
   width: calc(20% - (#{$spacing-unit} / 2));
 }
+
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
   width: calc(45% - (#{$spacing-unit} / 2));
 }
+
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
@@ -529,6 +560,7 @@ pre {
     width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
+
 @include media-query($on-palm) {
   .footer-col {
     float: none;
@@ -536,15 +568,18 @@ pre {
     width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
+
 /**
  * Page content
  */
 .page-content {
   padding: 0;
 }
+
 .page-heading {
   font-size: 20px;
 }
+
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -552,37 +587,41 @@ pre {
     margin-bottom: $spacing-unit;
   }
 }
+
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
   text-transform: uppercase;
   font-size: 16px;
 }
+
 .post-link {
   display: block;
   font-size: 24px;
 }
+
 /**
  * Posts
  */
 .post-header {
   margin-bottom: $spacing-unit;
 }
-.post-title {
-  font-size: 62px;
 
+.post-title {
+  font-size: 44px;
   text-align: center;
   font-family: "PT Sans";
-  font-weight: 900;
+  margin-top: 30px;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
 }
+
 .post-content {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   h2 {
     font-size: 32px;
