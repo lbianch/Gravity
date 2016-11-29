@@ -9,7 +9,8 @@
 title: Louis Bianchini
 email: lbianch85@gmail.com
 email_display: lbianch85
-description: "Physicist \u2236 Programmer \u2236 Data Scientist"
+description: "CERN Physicist \u2236 Programmer \u2236 Data Scientist"
+footer_description: ["CERN Physicist", "C++/Python Programmer", "Data Scientist"]
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lbianch.com"
 github_username:  lbianch
@@ -19,5 +20,5 @@ linkedin_username: louisbianchini
 markdown: kramdown
 divider: "\u222B"
 gems: ["jekyll-paginate"]
-paginate: 4
+paginate: 2
 paginate_path: "/page:num/"
