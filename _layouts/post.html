@@ -9,23 +9,19 @@ layout: default
       <a class="post-title-link"  href="{{page.url}}">{{ page.title }}</a>
     </h1>
     <center>
-      <p class="post-meta">
-	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      <p class="post-meta" style="text-transform: none">
+	{% if page.date %}
+	<i class="fa fa-calendar" aria-hidden="true"></i>
+	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
+	{% endif %}
+	{% if page.author %}
+	<span style="padding-left: 30px">
+	  <i class="fa fa-user" aria-hidden="true"></i>
+	  {{page.author}}
+	</span>
+	{% endif %}
       </p>
-      {% if page.author %}
-      <div class="">
-	<center>
-	  <p>
-	    <strong>
-	      <span class="authorKeyword">Author</span>
-	      <span class="small-site-title">
-		<h2 style="letter-spacing: 3px !important; text-transform: uppercase !important;">{{page.author}}</h2>
-              </span>
-	    </strong>
-	  </p>
-	</center>
-     </div>
-     {% endif %}
+
    </center>
   </header>
   
