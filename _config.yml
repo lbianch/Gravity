@@ -12,7 +12,7 @@ email_display: lbianch85
 description: "CERN Physicist \u2236 Programmer \u2236 Data Scientist"
 footer_description: ["CERN Physicist", "C++/Python Programmer", "Data Scientist"]
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lbianch.com"
+url: "https://lbianch.github.io"
 github_username:  lbianch
 linkedin_username: louisbianchini
 
