@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/lbianch
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lbianch.com
+  * I am lbianch (https://keybase.io/lbianch) on keybase.
+  * I have a public key ASApiVWqIfDe6m5tCFy-M_CnVwrxx5G2sO2K4Hg21diaCQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120298955aa21f0deea6e6d085cbe33f0a7570af1c791b6b0ed8ae07836d5d89a090a",
+      "host": "keybase.io",
+      "kid": "0120298955aa21f0deea6e6d085cbe33f0a7570af1c791b6b0ed8ae07836d5d89a090a",
+      "uid": "3cce70c32d4c47518559749fb05d3819",
+      "username": "lbianch"
+    },
+    "merkle_root": {
+      "ctime": 1506046977,
+      "hash": "fa05b99547797c43f309cf836feb8352b3e7ffedbaa2eecb5d0df7567c69ec9e869a71554ba2759b8cb0420511a17e8b8e8ebb32741d923d9105dba8402d42c1",
+      "hash_meta": "1f45c1623e4c47c937950658b4f36499e834a6c1fb5a271dd8e90ad1f461a7a9",
+      "seqno": 1441648
+    },
+    "service": {
+      "hostname": "lbianch.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.30"
+  },
+  "ctime": 1506047100,
+  "expire_in": 504576000,
+  "prev": "6bb4b9d266466af69786584c3d502d53cc5058ec03f7316f2270b2c5c862b3af",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKYlVqiHw3upubQhcvjPwp1cK8ceRtrDtiuB4NtXYmgkKp3BheWxvYWTFA0J7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjk4OTU1YWEyMWYwZGVlYTZlNmQwODVjYmUzM2YwYTc1NzBhZjFjNzkxYjZiMGVkOGFlMDc4MzZkNWQ4OWEwOTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjk4OTU1YWEyMWYwZGVlYTZlNmQwODVjYmUzM2YwYTc1NzBhZjFjNzkxYjZiMGVkOGFlMDc4MzZkNWQ4OWEwOTBhIiwidWlkIjoiM2NjZTcwYzMyZDRjNDc1MTg1NTk3NDlmYjA1ZDM4MTkiLCJ1c2VybmFtZSI6ImxiaWFuY2gifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDYwNDY5NzcsImhhc2giOiJmYTA1Yjk5NTQ3Nzk3YzQzZjMwOWNmODM2ZmViODM1MmIzZTdmZmVkYmFhMmVlY2I1ZDBkZjc1NjdjNjllYzllODY5YTcxNTU0YmEyNzU5YjhjYjA0MjA1MTFhMTdlOGI4ZThlYmIzMjc0MWQ5MjNkOTEwNWRiYTg0MDJkNDJjMSIsImhhc2hfbWV0YSI6IjFmNDVjMTYyM2U0YzQ3YzkzNzk1MDY1OGI0ZjM2NDk5ZTgzNGE2YzFmYjVhMjcxZGQ4ZTkwYWQxZjQ2MWE3YTkiLCJzZXFubyI6MTQ0MTY0OH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJsYmlhbmNoLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzAifSwiY3RpbWUiOjE1MDYwNDcxMDAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNmJiNGI5ZDI2NjQ2NmFmNjk3ODY1ODRjM2Q1MDJkNTNjYzUwNThlYzAzZjczMTZmMjI3MGIyYzVjODYyYjNhZiIsInNlcW5vIjoxMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAIwuV25rKDqKl9hnoSs9o6vVXFkxITDDksSvUa9u61HTd1OnseJfjcCPK1sigKaB0ozXlEhpN4keBIQSrR8ZoFqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgRwVQo6u/5/QL6BV1mz2/O2cx15n+ac31gZQWqdgXnomjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lbianch
+
+==================================================================
