@@ -15,8 +15,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lbianch.github.io"
 github_username:  lbianch
 linkedin_username: louisbianchini
-pgp_url = https://pgp.mit.edu/pks/lookup?op=get&search=0xCBF5EBDD8031EACD
-pgp_fingerprint = CBF5EBDD8031EACD
+pgp_url = "https://pgp.mit.edu/pks/lookup?op=get&search=0xCBF5EBDD8031EACD"
+pgp_fingerprint = 0xCBF5EBDD8031EACD
 
 # Build settings
 markdown: kramdown
