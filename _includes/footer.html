@@ -40,6 +40,12 @@
             {% include icon-mail.html username=site.email_display %}
           </li>
           {% endif %}
+		
+	  {% if site.pgp_fingerprint %}
+          <li>
+            {% include icon-pgp.html username=site.pgp_finegrprint %}
+          </li>
+          {% endif %}
         </ul>
       </div>
 
